@@ -17,8 +17,11 @@
 
 6、Android使用：
       https://github.com/shadowsocks/shadowsocks-android/releases 下载shadowsocks--universal.apk文件安装，后面同样是扫描二维码导入即可。
+      
+7、Centos、ubuntu使用：
+      另两个文件是写好的安装/导入配置/运行 sh文件，修改后使用即可。
 
-7、不同模式使用方法：
+8、不同模式使用方法：
       PAC模式是只有指定网站会使用代理，其他常用网站不使用代理，通常使用这个模式。
       全局模式是所有服务都使用代理，不论是哪个网站，通常在PAC打不开的情况下可以尝试使用。
       Windows客户端有高可用和负载均衡模式，通常选择高可用就可以。
