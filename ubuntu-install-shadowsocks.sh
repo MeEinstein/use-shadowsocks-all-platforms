@@ -7,11 +7,11 @@ wget https://www.privoxy.org/sf-download-mirror/Debian/3.0.26%20%28stable%29%20j
 dpkg -i privoxy_3.0.26-1_amd64.deb -y
 cat >> /opt/shadowsocks.json << EOF
 {
-    "server":"jp1-sta31.bw4dl.space",
+    "server":"servername",
     "server_port":40414,
     "local_address": "127.0.0.1",
     "local_port":1080,
-    "password":"yXHWJB4ZvUVG",
+    "password":"password",
     "timeout":300,
     "method":"chacha20-ietf-poly1305",
     "fast_open": false,
