@@ -5,7 +5,7 @@ bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/
 服务端配置
 {
   "inbounds": [{
-    "port": 10086, // 服务器监听端口，必须和上面的一样
+    "port": 10086, 
     "protocol": "vmess",
     "settings": {
       "clients": [{
