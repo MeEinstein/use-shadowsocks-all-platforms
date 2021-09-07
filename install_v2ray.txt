@@ -1,0 +1,26 @@
+安装
+bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
+bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh)
+
+服务端配置
+{
+  "inbounds": [{
+    "port": 10086, // 服务器监听端口，必须和上面的一样
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+	           "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
+                   "alterId":64
+                  }]
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
+
+客户端
+https://github.com/Cenmrev/V2RayX/releases/tag/v1.5.1
+
+
